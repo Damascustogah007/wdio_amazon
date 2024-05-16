@@ -1,0 +1,12 @@
+{
+  "name": "wdio_amazon",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/mocha-framework": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
